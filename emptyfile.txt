@@ -1,0 +1,7 @@
+<palette>
+<color name='Mountains-song-1' rgb='00030D' r='0' g='3' b='12' />
+<color name='Mountains-song-2' rgb='151E26' r='21' g='30' b='38' />
+<color name='Mountains-song-3' rgb='485359' r='72' g='82' b='89' />
+<color name='Mountains-song-4' rgb='7B868C' r='123' g='133' b='140' />
+<color name='Mountains-song-5' rgb='B0B9BF' r='175' g='185' b='191' />
+</palette>
