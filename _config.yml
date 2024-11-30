@@ -2,4 +2,28 @@ title: "./BUBBLEGUMPOP_NORMANi "
 description: @blackgirlscode this is the first repo we made, i made it off the top of my head @nasa-jpl
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-hacker
+google_analytics: G-873R6JDQBF
+remote_theme: pages-themes/hacker@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-seo-tag
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-gallery-generator
+baseurl: /
+
+source: .
+destination: ./_site
+permalink: /:title
+paginate: 3
+paginate_path: /page/:num/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+future: true
